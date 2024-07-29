@@ -1,0 +1,44 @@
+D:\react-learn>git add customreact
+fatal: not a git repository (or any of the parent directories): .git
+
+D:\react-learn>git init
+Initialized empty Git repository in D:/react-learn/.git/
+
+D:\react-learn>git add customreact
+
+D:\react-learn>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   customreact/customreact.js
+        new file:   customreact/index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        counter-button/
+        week-4-react/
+
+
+D:\react-learn>git commit -m "Adding to local repo"
+[master (root-commit) 4daf931] Adding to local repo
+ 2 files changed, 42 insertions(+)
+ create mode 100644 customreact/customreact.js
+ create mode 100644 customreact/index.html
+
+D:\react-learn>git remote -v
+
+D:\react-learn>git remote add origin https://github.com/tanmaykulkarni2112/learn-react.git
+
+D:\react-learn>git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/tanmaykulkarni2112/learn-react.git'
+
+D:\react-learn>git branch
+* master
+
+D:\react-learn>git branch -M main
+
+D:\react-learn>git push -u origin main
